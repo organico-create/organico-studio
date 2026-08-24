@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# CSS, JS e imágenes deben ser rastreables para que Google
+# pueda renderizar la página como la ve un usuario.
+Allow: /assets/
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.webp$
+Allow: /*.gif$
+Allow: /*.svg$
+
+# Sin contenido duplicado por parámetros de campañas o búsqueda interna.
+Disallow: /*?utm_
+Disallow: /*?fbclid=
+Disallow: /*?s=
+Disallow: /*?replytocom=
+
+# Rutas de administración: solo aplican si el sitio queda en WordPress.
+# Elimina estas tres líneas si se publica como sitio estático.
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://organicostudio.com/sitemap.xml

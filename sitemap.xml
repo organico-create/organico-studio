@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://organicostudio.com/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://organicostudio.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://organicostudio.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://organicostudio.com/"/>
+  </url>
+
+  <url>
+    <loc>https://organicostudio.com/proyectos/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://organicostudio.com/proyectos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://organicostudio.com/en/work/"/>
+  </url>
+
+  <url>
+    <loc>https://organicostudio.com/estudio/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://organicostudio.com/estudio/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://organicostudio.com/en/studio/"/>
+  </url>
+
+  <url>
+    <loc>https://organicostudio.com/agendamiento/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://organicostudio.com/agendamiento/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://organicostudio.com/en/scheduling/"/>
+  </url>
+
+  <url>
+    <loc>https://organicostudio.com/proyectos/maria-perritos/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://organicostudio.com/proyectos/ar-records/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://organicostudio.com/proyectos/velum-architecture/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://organicostudio.com/proyectos/prana-ice/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://organicostudio.com/proyectos/fuds/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://organicostudio.com/proyectos/buzz/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://organicostudio.com/proyectos/srb-travel/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://organicostudio.com/proyectos/pecadogs/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://organicostudio.com/proyectos/logofolio/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
