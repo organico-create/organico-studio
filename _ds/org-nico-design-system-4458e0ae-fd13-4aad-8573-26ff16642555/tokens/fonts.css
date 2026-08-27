@@ -1,0 +1,49 @@
+/* ===== Orgànico Studio — Webfonts ===== */
+
+/* Aeonik — primary display & UI grotesk */
+@font-face {
+  font-family: "Aeonik";
+  src: url("../assets/fonts/Aeonik-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Aeonik";
+  src: url("../assets/fonts/Aeonik-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Aeonik";
+  src: url("../assets/fonts/Aeonik-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Avenir Next Condensed — impact display headlines */
+@font-face {
+  font-family: "Avenir Next Condensed";
+  src: url("../assets/fonts/AvenirNextCondensed.ttc") format("truetype-collection");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Poppins — secondary / long-form body */
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}

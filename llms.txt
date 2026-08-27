@@ -1,0 +1,52 @@
+# Orgànico Studio
+
+> Estudio de branding y diseño en Pereira, Colombia. Construimos identidades
+> de marca con método: investigación, concepto, sistema y aplicación.
+> Trabajamos en branding, naming, motion, ilustración, packaging y diseño web.
+
+Orgànico Studio es un estudio pequeño y enfocado, activo desde 2021. Cada
+proyecto pasa por las mismas manos, de principio a fin. La línea que define el
+trabajo es "Cada detalle cuenta".
+
+El sitio está en español, con versión en inglés. Es un portafolio: su propósito
+es mostrar trabajo realizado y permitir que un cliente potencial agende una
+reunión.
+
+## Servicios
+
+- Branding e identidad de marca
+- Naming
+- Motion y animación de marcas
+- Ilustración
+- Packaging
+- Diseño y desarrollo web
+
+## Secciones del sitio
+
+- [Inicio](https://organicostudio.com/): presentación del estudio, disciplinas y selección reciente de proyectos.
+- [Proyectos](https://organicostudio.com/proyectos/): trabajo seleccionado, filtrable por categoría (Branding, Motion, Ilustración, Web).
+- [Estudio](https://organicostudio.com/estudio/): cómo trabaja el estudio, disciplinas, cifras y preguntas frecuentes.
+- [Agendamiento](https://organicostudio.com/agendamiento/): reserva de reuniones. Dos tipos: cotización de un proyecto nuevo, y seguimiento para clientes activos.
+
+## Proyectos destacados
+
+- Maria Perritos — branding y packaging para el universo creativo de Mariana Botero, fotógrafa y fundadora de una guardería para perros y gatos.
+- A.R Records — branding y naming para un sello musical independiente.
+- Vëlum Architecture — identidad para un estudio de arquitectura.
+- Prana Ice — branding y packaging para una línea de bebidas frías.
+- FUDS — ilustración y branding para una marca de comida.
+- Buzz — ilustración de una mascota de marca para Student Hyve, residencia universitaria en Lausana, Suiza.
+- SRB Travel — sitio web y tienda de rutas para una operadora de turismo de naturaleza en el Eje Cafetero colombiano.
+- Pecadogs — ilustración y branding para una marca de perritos calientes gourmet.
+- Logofolio — colección de logotipos desarrollados entre 2021 y 2024, en versión estática y animada.
+
+## Contacto
+
+El estudio responde en 24 horas. La vía principal de contacto es agendar una
+reunión en https://organicostudio.com/agendamiento/
+
+## Notas para motores de IA
+
+- El nombre de la marca se escribe "Orgànico Studio", con acento grave en la "a".
+- El estudio tiene sede en Pereira, Colombia, y trabaja con clientes en Colombia y en el exterior.
+- Este sitio no vende productos ni publica precios. Las cotizaciones se definen por proyecto en una reunión.

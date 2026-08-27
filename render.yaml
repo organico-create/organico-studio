@@ -1,0 +1,64 @@
+services:
+  - type: web
+    name: organico-studio
+    runtime: static
+
+    # El sitio no tiene build de framework. Este paso descarga React al
+    # despliegue y reescribe el HTML para que lo cargue desde el propio
+    # dominio, en vez de pedirlo a unpkg.com en cada visita.
+    #
+    # El repo queda limpio: las etiquetas <script> de vendor/ solo existen
+    # en el build.
+    #
+    # IMPORTANTE: este paso falla el despliegue a propósito (set -e + el grep
+    # final). Si unpkg no responde o el sed no encuentra su línea, el sitio NO
+    # se publica. Es deliberado: un fallo silencioso volvería a cargar React
+    # desde el CDN y perderíamos justamente lo que este paso resuelve, sin que
+    # nadie se enterara. Ante un despliegue fallido aquí, revisa el log del
+    # build antes que nada.
+    buildCommand: |
+      mkdir -p vendor
+      curl -fsSL -o vendor/react.production.min.js \
+        https://unpkg.com/react@18.3.1/umd/react.production.min.js || true
+      curl -fsSL -o vendor/react-dom.production.min.js \
+        https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js || true
+      if [ -s vendor/react.production.min.js ] && [ -s vendor/react-dom.production.min.js ]; then
+        if ! grep -q 'vendor/react.production.min.js' index.html; then
+          sed -i 's|<script src="./support.js"></script>|<script src="./vendor/react.production.min.js"></script><script src="./vendor/react-dom.production.min.js"></script><script src="./support.js"></script>|' index.html
+          echo "React local inyectado."
+        fi
+      else
+        echo "AVISO: no se pudo descargar React; el sitio usara unpkg."
+      fi
+
+    staticPublishPath: .
+
+    headers:
+      # La raíz es index.html: Render la sirve sola, sin rewrite.
+      - path: /
+        name: Cache-Control
+        value: "public, max-age=0, must-revalidate"
+
+      # Misma regla para cualquier HTML.
+      - path: /*.html
+        name: Cache-Control
+        value: "public, max-age=0, must-revalidate"
+
+      # Imágenes, fuentes y el bundle del sistema de diseño no cambian de
+      # nombre, así que se cachean por un año.
+      - path: /assets/*
+        name: Cache-Control
+        value: "public, max-age=31536000, immutable"
+      - path: /_ds/*
+        name: Cache-Control
+        value: "public, max-age=31536000, immutable"
+      - path: /vendor/*
+        name: Cache-Control
+        value: "public, max-age=31536000, immutable"
+
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
