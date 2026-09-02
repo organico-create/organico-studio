@@ -16,8 +16,8 @@
   <script src="_ds/org-nico-design-system-4458e0ae-fd13-4aad-8573-26ff16642555/_ds_bundle.js"></script>
   <script src="./image-slot.js"></script>
 </helmet>
-<div onClick="{{ onSelect }}" style="display:flex;flex-direction:column;height:100%;box-sizing:border-box;background:var(--white);border:1px solid var(--border-subtle);border-radius:24px;overflow:hidden;cursor:pointer;transition:transform 200ms cubic-bezier(0.16,1,0.3,1), box-shadow 200ms cubic-bezier(0.16,1,0.3,1)" style-hover="transform:translateY(-4px);box-shadow:0 8px 24px rgba(28,28,28,0.08)">
-  <div style="position:relative;aspect-ratio:4 / 3;background:var(--grey-100)">
+<div onClick="{{ onSelect }}" style="display:flex;flex-direction:column;min-height:0;max-width:100%;box-sizing:border-box;background:var(--white);border:1px solid var(--border-subtle);border-radius:24px;overflow:hidden;cursor:pointer;transition:transform 200ms cubic-bezier(0.16,1,0.3,1), box-shadow 200ms cubic-bezier(0.16,1,0.3,1)" style-hover="transform:translateY(-4px);box-shadow:0 8px 24px rgba(28,28,28,0.08)">
+  <div style="position:relative;width:100%;aspect-ratio:4 / 3;flex:none;overflow:hidden;background:var(--grey-100)">
     <image-slot id="{{ slotId }}" src="{{ imgSrc }}" shape="rect" placeholder="{{ title }}"></image-slot>
     <sc-if value="{{ showIndex }}" hint-placeholder-val="{{ true }}">
       <span style="position:absolute;left:14px;top:14px;font-family:var(--font-longform);font-size:12px;font-weight:600;color:var(--charcoal-500);background:rgba(244,244,244,0.92);padding:5px 9px;border-radius:999px;pointer-events:none">{{ n }}</span>
